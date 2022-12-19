@@ -11,3 +11,48 @@ Updated: 2022-12-15 15:44:13
 
 */
 
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Syne', Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 37px;
+}
+
+.header_logo{
+    width: 15%;
+}
+
+.header_logo img{
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item{
+    padding: 30px 60px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu-item-13 {
+    background-color: #DC9F96;
+}
+
+#menu-item-13 a {
+    color: white;
+}
