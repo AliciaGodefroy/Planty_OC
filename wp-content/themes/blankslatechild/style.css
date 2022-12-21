@@ -56,3 +56,14 @@ body{
 #menu-item-13 a {
     color: white;
 }
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: black;
+}
