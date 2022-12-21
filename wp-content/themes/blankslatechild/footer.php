@@ -1,5 +1,4 @@
 </main>
-<?php get_sidebar(); ?>
 </div>
 <footer id="footer" class ="footer">
 	<div class="footer_ctn">

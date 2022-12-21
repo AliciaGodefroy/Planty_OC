@@ -8,10 +8,10 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="wrapper" class="hfeed">
-<header id="header" class="header" role="banner">
+<header id="header" role="banner">
 	<div class="header_logo">
 		<a href="#">
-			<img src="http://localhost:8888/planty/site-planty/wp-content/themes/blankslatechild/assets/Logo.png" alt="Logo Planty">
+			<img src="<?php echo get_stylesheet_directory_uri()."/assets/Logo.png" ?>" alt="Logo Planty">
 		</a>
 	</div>
     <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
