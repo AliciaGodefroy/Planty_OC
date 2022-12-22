@@ -27,8 +27,18 @@ h1 {
     line-height: 45.6px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
 .spc-s1 {
     margin-top: 105px;
+}
+.spc-s2 {
+    margin-top: 100px;
 }
 
 /* HEADER */
@@ -69,16 +79,6 @@ h1 {
     color: white;
 }
 
-/* PAGE D'ACCUEIL */
-
-.header {
-    display: none;
-}
-
-.hero_ttl {
-    color: #3D9448;
-}
-
 /* FOOTER */
 
 .footer {
@@ -90,3 +90,19 @@ h1 {
     color: black;
 }
 
+/* PAGE D'ACCUEIL */
+
+.header {
+    display: none;
+}
+
+.hero_ttl {
+    color: #3D9448;
+}
+
+/* ------- SECTION ENERGIE */
+
+.section-energie_ctn p {
+    text-align: center;
+    margin-top: 48px;
+}
