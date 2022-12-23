@@ -106,3 +106,32 @@ h2 {
     text-align: center;
     margin-top: 48px;
 }
+
+/* ------- SECTION GOUTS */
+
+.section-gouts {
+    background-color: #ECE2DA;
+    padding: 58px 0 30px 0;
+}
+
+.section-gouts_txt h2 {
+    text-transform: uppercase;
+    color: #D2776A;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.section-gouts_txt p {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.section-gouts_img\>.\<figure.class\= {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 98%;
+    margin-top: 48px;
+}
