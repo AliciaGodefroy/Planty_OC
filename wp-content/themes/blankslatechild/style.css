@@ -36,10 +36,10 @@ h2 {
 }
 
 .spc-s1 {
-    margin-top: 105px;
+    padding-top: 105px;
 }
 .spc-s2 {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 /* 
 .container {
@@ -96,6 +96,10 @@ h2 {
 }
 
 /* PAGE D'ACCUEIL */
+.hero {
+    background-color: #ECE2DA;
+    padding-bottom: 175px;
+}
 
 .header {
     display: none;
@@ -105,7 +109,35 @@ h2 {
     color: #3D9448;
 }
 
+/* .hero-img {
+    position: relative;
+}
+
+.hero-img .wp-block-image {
+    position: absolute;
+    top: -9rem;
+    left: 11.2rem;
+} */
+
 /* ------- SECTION ENERGIE */
+
+.section-energie {
+    position: relative;
+}
+
+.section-energie_ctn {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.section-energie_bg .wp-block-image {
+    margin-top: -4rem;
+}
+
+.section-energie_bg .wp-block-image img {
+    width: 100%;
+}
 
 .section-energie_ctn h2 {
     color: #3D9448;
@@ -122,11 +154,17 @@ h2 {
     justify-content: center;
 }
 
+.hero_img .wp-block-image {
+    position: absolute;
+    top: 249px;
+    left: 178px;
+}
+
 /* ------- SECTION GOUTS */
 
 .section-gouts {
     background-color: #ECE2DA;
-    padding: 58px 0 30px 0;
+    padding: 58px 0 80px 0;
 }
 
 .section-gouts_txt h2 {
@@ -192,6 +230,15 @@ h2 {
 .section-avis {
     margin-bottom: 132px; /* à retirer + tard */
 }
+
+.section-avis_bg .wp-block-image {
+    margin-top: -4rem;
+}
+
+.section-avis_bg .wp-block-image img {
+    width: 100%;
+}
+
 .section-avis h2 {
     font-size: 30px;
     font-weight: 800;
