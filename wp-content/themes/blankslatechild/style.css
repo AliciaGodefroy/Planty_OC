@@ -88,6 +88,7 @@ h2 {
 
 .footer {
     text-align: center;
+    padding: 20px 0;
 }
 
 .footer_link {
@@ -98,7 +99,6 @@ h2 {
 /* PAGE D'ACCUEIL */
 .hero {
     background-color: #ECE2DA;
-    padding-bottom: 175px;
 }
 
 .header {
@@ -109,11 +109,22 @@ h2 {
     color: #3D9448;
 }
 
-/* .hero-img {
+.hero-img {
     position: relative;
 }
 
-.hero-img .wp-block-image {
+.feuilles {
+    position: absolute;
+    top: 18%;
+    left: 26.7%;
+}
+
+.canette {
+    position: inherit;
+    z-index: 1;
+}
+
+/* .hero-img .wp-block-image {
     position: absolute;
     top: -9rem;
     left: 11.2rem;
@@ -228,15 +239,20 @@ h2 {
 /* ------- SECTION AVIS */
 
 .section-avis {
-    margin-bottom: 132px; /* à retirer + tard */
+    position: relative;
 }
 
 .section-avis_bg .wp-block-image {
-    margin-top: -4rem;
+    margin-top: -2rem;
 }
 
 .section-avis_bg .wp-block-image img {
     width: 100%;
+}
+
+.section-avis_ctn {
+    position: absolute;
+    top: 140px;
 }
 
 .section-avis h2 {
@@ -262,4 +278,23 @@ h2 {
     color: #3D9448;
     font-size: 30px;
     margin-bottom: 11px;
+}
+
+.section-avis_img .wp-block-image img {
+    width: 100%;
+}
+
+.section-avis_img {
+    position: relative;
+    width: 75%;
+}
+
+.section-avis_img .letter-p img {
+    position: absolute;
+}
+
+.section-avis_canettes .wp-block-image img {
+    position: absolute;
+    width: 100%;
+    bottom: -227px;
 }
