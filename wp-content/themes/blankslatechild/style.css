@@ -15,9 +15,13 @@ Updated: 2022-12-15 15:44:13
 
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
+#container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 body{
     font-family: 'Syne', Arial, Helvetica, sans-serif;
-    max-width: 1440px;
 }
 
 h1 {
@@ -45,10 +49,6 @@ h2 {
 .spc-s3 {
     padding-top: 186px;
 }
-/* 
-.container {
-    max-width: 1140px;
-} */
 
 /* HEADER */
 
@@ -120,7 +120,7 @@ h2 {
 .feuilles {
     position: absolute;
     top: 18%;
-    left: 26.7%;
+    left: 26%;
 }
 
 .canette {

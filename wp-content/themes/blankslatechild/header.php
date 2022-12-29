@@ -6,6 +6,7 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<div id="container">
 <?php wp_body_open(); ?>
 <div id="wrapper" class="hfeed">
 <header id="header" role="banner">
