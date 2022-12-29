@@ -17,6 +17,7 @@ Updated: 2022-12-15 15:44:13
 
 body{
     font-family: 'Syne', Arial, Helvetica, sans-serif;
+    max-width: 1440px;
 }
 
 h1 {
@@ -203,7 +204,10 @@ h2 {
     margin-top: 48px;
 }
 
-.section-gouts_img1, .section-gouts_img2, .section-gouts_img3, .section-gouts_img4 {
+.section-gouts_img1, 
+.section-gouts_img2, 
+.section-gouts_img3, 
+.section-gouts_img4 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,7 +221,10 @@ h2 {
     top: 73px;
 }
 
-.section-gouts_img1 h3, .section-gouts_img2 h3, .section-gouts_img3 h3, .section-gouts_img4 h3 {
+.section-gouts_img1 h3, 
+.section-gouts_img2 h3, 
+.section-gouts_img3 h3, 
+.section-gouts_img4 h3 {
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -264,7 +271,9 @@ h2 {
     color: #3D9448;
 }
 
-.section-avis_1, .section-avis_2, .section-avis_3 {
+.section-avis_1, 
+.section-avis_2, 
+.section-avis_3 {
     display: flex;
     gap: 15px;
     align-items: center;
@@ -284,7 +293,8 @@ h2 {
 }
 
 .section-avis_img .wp-block-image img {
-    width: 100%;
+    width: 126.28px;
+    height: 139px;
 }
 
 .section-avis_img {
@@ -343,4 +353,78 @@ h2 {
 
 .section-equipe_bg .wp-block-image {
     margin-top: -4rem;
+}
+
+.section-equipe_ctn {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    top: 24%;
+    left: 21%;
+}
+
+.section-equipe_ctn h2 {
+    text-transform: none;
+}
+
+.section-equipe_membres {
+    display: flex;
+    gap: 10rem;
+}
+
+.section-equipe_membre-1, 
+.section-equipe_membre-2, 
+.section-equipe_membre-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+
+.section-equipe_membres h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section-equipe_membres p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section-equipe_feuilles {
+    position: absolute;
+    right: -260px;
+    bottom: -102px;
+}
+
+/* ------- SECTION EQUIPE */
+
+.section-contact {
+    background-color: #ECE2DA;
+    padding-top: 66px;
+}
+
+.section-contact h2 {
+    text-transform: none;
+}
+
+.section-contact_canettes .wp-block-image img {
+    width: 100%;
+}
+
+.section-contact_ctn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+.section-contact_ctn form label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.section-contact_ctn form label input {
+    margin-top:  20px; 
 }
