@@ -41,6 +41,9 @@ h2 {
 .spc-s2 {
     padding-top: 100px;
 }
+.spc-s3 {
+    padding-top: 186px;
+}
 /* 
 .container {
     max-width: 1140px;
@@ -96,7 +99,7 @@ h2 {
     color: black;
 }
 
-/* PAGE D'ACCUEIL */
+/*----------------------------------------- PAGE D'ACCUEIL */
 .hero {
     background-color: #ECE2DA;
 }
@@ -297,4 +300,47 @@ h2 {
     position: absolute;
     width: 100%;
     bottom: -227px;
+}
+
+/*----------------------------------------- PAGE NOUS RENCONTRER */
+
+.hero2 {
+    position: relative;
+    background-color: #ECE2DA;
+}
+
+.hero2_ttl {
+    color :#D2776A;
+}
+
+.hero2_ctn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero2_txt {
+    text-align: center;
+    width: 37%;
+    margin: 27px 0 60px 0;
+}
+
+.hero2_fleur {
+    position: absolute;
+    top: 69px;
+    left: 155px;
+}
+
+/* ------- SECTION EQUIPE */
+
+.section-equipe {
+    position: relative;
+}
+
+.section-equipe_bg .wp-block-image img {
+    width: 100%;
+}
+
+.section-equipe_bg .wp-block-image {
+    margin-top: -4rem;
 }
