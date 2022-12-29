@@ -277,7 +277,7 @@ h2 {
     display: flex;
     gap: 15px;
     align-items: center;
-    width: 25%;
+    width: 27%;
 }
 
 .section-avis_column {
@@ -299,7 +299,12 @@ h2 {
 
 .section-avis_img {
     position: relative;
-    width: 75%;
+    width: 58%;
+}
+
+.section-avis_3 .wp-block-image img {
+    width: 119%;
+    margin-right: 8rem;
 }
 
 .section-avis_img .letter-p img {
@@ -409,6 +414,10 @@ h2 {
     text-transform: none;
 }
 
+.section-contact_canettes {
+    margin-top: 70px;
+}
+
 .section-contact_canettes .wp-block-image img {
     width: 100%;
 }
@@ -425,6 +434,29 @@ h2 {
     margin-top: 20px;
 }
 
-.section-contact_ctn form label input {
+.section-contact_ctn form label input, .section-contact_ctn form label textarea {
     margin-top:  20px; 
+    border: white;
+    border-radius: 7px;
+}
+
+
+.section-contact_ctn form p {
+    margin-top: 20px;
+}
+
+.section-contact_ctn form label input {
+    height: 70px;
+}
+
+.section-contact_ctn form label textarea {
+    height: 240px;
+}
+
+.form_btn input {
+    padding: 20px 72px;
+    background-color: #E0B9B4;
+    border: #E0B9B4;
+    border-radius: 5px;
+    color: white;
 }
