@@ -16,7 +16,7 @@ Updated: 2022-12-15 15:44:13
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
 #container {
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -82,6 +82,10 @@ h2 {
 
 #menu-item-13 {
     background-color: #DC9F96;
+}
+
+#menu-item-13:hover {
+    background-color: #C02E44;
 }
 
 #menu-item-13 a {
@@ -246,6 +250,10 @@ h2 {
     border-radius: 5px;
 }
 
+.section-gouts_btn .wp-block-button__link:hover {
+    background-color: #C02E44;
+}
+
 /* ------- SECTION AVIS */
 
 .section-avis {
@@ -314,7 +322,7 @@ h2 {
 .section-avis_canettes .wp-block-image img {
     position: absolute;
     width: 100%;
-    bottom: -227px;
+    bottom: -254px;
 }
 
 /*----------------------------------------- PAGE NOUS RENCONTRER */
@@ -408,6 +416,7 @@ h2 {
 .section-contact {
     background-color: #ECE2DA;
     padding-top: 66px;
+    position: relative;
 }
 
 .section-contact h2 {
@@ -453,10 +462,70 @@ h2 {
     height: 240px;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.form_nom input, .form_email input {
+    width: 100%;
+}
+
 .form_btn input {
     padding: 20px 72px;
     background-color: #E0B9B4;
     border: #E0B9B4;
     border-radius: 5px;
     color: white;
+}
+
+.form_btn input:hover {
+    background-color: #C02E44;
+    border:#C02E44;
+}
+
+.wpcf7-spinner {
+    display: none;
+}
+
+.section-contact_fleur {
+    position: absolute;
+    left: 448px;
+    bottom: 213px;
+}
+
+/*----------------------------------------- PAGE COMMANDER */
+
+.hero3, .section-commande {
+    background-color: #3D9448;
+}
+
+.hero3 {
+    display: flex;
+    justify-content: center;
+}
+
+.hero3_ttl {
+    color: white;
+    width: 70%;
+    padding: 69px 0;
+    border-bottom: 1px solid white;
+}
+
+/* ------- SECTION COMMANDE */
+
+.section-commande {
+    display: flex;
+    justify-content: center;
+}
+
+.section-commande h2 {
+    text-transform: none;
+    color: white;
+    text-align: left;
+    width: 70%;
+    padding: 40px 0;
 }
