@@ -29,7 +29,7 @@ h1 {
     text-transform: uppercase;
     font-size: 38px;
     font-weight: 800;
-    line-height: 45.6px;
+    line-height: 30px;
 }
 
 h2 {
@@ -124,19 +124,13 @@ h2 {
 .feuilles {
     position: absolute;
     top: 18%;
-    left: 26%;
+    left: 25.6%;
 }
 
 .canette {
     position: inherit;
     z-index: 1;
 }
-
-/* .hero-img .wp-block-image {
-    position: absolute;
-    top: -9rem;
-    left: 11.2rem;
-} */
 
 /* ------- SECTION ENERGIE */
 
@@ -203,8 +197,8 @@ h2 {
 }
 
 .section-gouts_img img  {
-    min-height: 200px;
-    min-width: 320px;
+    min-height: 165px;
+    min-width: 248px;
 }
 
 .section-gouts_img1, 
@@ -267,14 +261,39 @@ h2 {
     width: 100%;
 }
 
-.section-avis_ctn {
-    padding: 130px 0 0 0;
-}
-
 .section-avis h2 {
     font-size: 30px;
     font-weight: 800;
     color: #3D9448;
+}
+
+.section-avis_img {
+    width: 30%;
+}
+
+.section-avis_txt {
+    max-width: 43%;
+}
+
+.section-avis_1, 
+.section-avis_2, 
+.section-avis_3 {
+    display: flex;
+}
+
+.section-avis_txt h3 {
+    color: #3D9448;
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+.section-avis_column {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .section-avis_ctn {
+    padding: 130px 0 0 0;
 }
 
 .section-avis_1, 
@@ -315,7 +334,7 @@ h2 {
 
 .section-avis_img .letter-p img {
     position: absolute;
-}
+} */
 
 .section-avis_canettes .wp-block-image img {
     width: 100%;
@@ -383,6 +402,7 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0 1rem;
     gap: 10rem;
 }
 
@@ -532,20 +552,21 @@ h2 {
 
 
 
-/* --------------------------- MEDIA QUERIES --------------------------- */
+/* ------------------------------------------------------------------------- MEDIA QUERIES ------------------------------------------------------------------------- */
 
+/* VERSION MOBILE */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
-    h1 {
+    h1, h2 {
         font-size: 24px;
     }
     
     .spc-s3 {
-        padding-top: 95px;
+        padding-top: 70px;
     }
 
-    /* Header */
+    /*----------------------------------------- HEADER */
 
     #header {
         display: flex;
@@ -563,29 +584,59 @@ h2 {
         width: 100%;
     }
 
+    #menu {
+        width: 100%;
+    }
+
     .menu {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
-    .menu-item{
-        padding: 30px 138px;
+    .menu li {
+        width: 100%;
+        text-align: center;
     }
 
-    /* Nous renconter */
+    #menu-item-14 {
+        background-color: #C02E44;
+    }
+
+    #menu-item-14 a {
+        color: white;
+    }
+
+    #menu-item-14:hover {
+        background-color: #DC9F96;
+    }
+
+    /*----------------------------------------- PAGE NOUS RENCONTRER */
+
+    .section-energie_bg .wp-block-image {
+        margin-top: -2rem;
+    }
+
+    .section-gouts_img1 h3, 
+    .section-gouts_img2 h3, 
+    .section-gouts_img3 h3, 
+    .section-gouts_img4 h3 {
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .oneline { top: 75px; }
+    .twolines { top: 57px; }
+
+    /*----------------------------------------- PAGE NOUS RENCONTRER */
+
+    .hero2_ctn {
+        padding: 0 1rem;
+    }
 
     .hero2_txt {
-        width: 70%;
+        width: 90%;
         font-size: 19px;
-    }
-
-    .hero2_fleur {
-        top: 2%;
-        left: 6%;
-    }
-
-    .hero2_fleur img {
-        width: 50%;
     }
 
     .section-equipe_bg .wp-block-image {
@@ -596,19 +647,76 @@ h2 {
         gap: 5rem;
     }
 
-    .section-equipe_feuilles {
-        left: 16px;
-    }
-
-    .section-equipe_feuilles img {
-        width: 32%;
-    }
-
+    .hero2_fleur,
+    .section-equipe_feuilles, 
+    .section-contact_fleur, 
     .canettes-desktop {
         display: none;
     }
 
     .canettes-mobile {
         display: block;
+    }
+}
+
+
+/* VERSION TABLETTE */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 992px) {
+
+    h1, h2 {
+        font-size: 24px;
+    }
+
+    .spc-s3 {
+        padding-top: 75px;
+    }
+
+    /*----------------------------------------- HEADER */
+
+    #header {
+        padding: 0px 0px 0px 15px;
+    }
+
+    #menu {
+        width: 75%;
+    }
+
+    .menu li {
+        width: 50%;
+        text-align: center;
+    }
+
+    .menu-item {
+        padding : 20px 0;
+    }
+
+    .header_logo {
+        width: 25%;
+    }
+
+    /*----------------------------------------- PAGE NOUS RENCONTRER */
+
+    .hero2_fleur,
+    .section-equipe_feuilles, 
+    .section-contact_fleur {
+        display: none;
+    }
+    
+    .hero2_txt {
+        width: 75%;
+    }
+
+    .section-equipe_bg .wp-block-image {
+        margin-top: -3rem;
+    }
+
+    .section-contact_fleur {
+        left: 20px;
+        bottom: 90px;
+    }
+
+    .section-equipe_membres {
+        gap: 5rem;
     }
 }
