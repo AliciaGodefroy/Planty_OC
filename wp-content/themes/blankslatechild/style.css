@@ -279,6 +279,8 @@ h2 {
 .section-avis_2, 
 .section-avis_3 {
     display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .section-avis_txt h3 {
@@ -290,6 +292,7 @@ h2 {
 .section-avis_column {
     display: flex;
     flex-direction: row;
+    padding: 80px 0 120px 0;
 }
 
 /* .section-avis_ctn {
