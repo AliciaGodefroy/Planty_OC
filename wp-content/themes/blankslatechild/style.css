@@ -321,6 +321,10 @@ h2 {
     width: 100%;
 }
 
+.canettes-mobile {
+    display: none;
+}
+
 /*----------------------------------------- PAGE NOUS RENCONTRER */
 
 .hero2 {
@@ -524,4 +528,87 @@ h2 {
     text-align: left;
     width: 70%;
     padding: 40px 0;
+}
+
+
+
+/* --------------------------- MEDIA QUERIES --------------------------- */
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    h1 {
+        font-size: 24px;
+    }
+    
+    .spc-s3 {
+        padding-top: 95px;
+    }
+
+    /* Header */
+
+    #header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .header_logo{
+        width: 50%;
+        padding: 20px 0;
+    }
+
+    .header_logo img{
+        width: 100%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-item{
+        padding: 30px 138px;
+    }
+
+    /* Nous renconter */
+
+    .hero2_txt {
+        width: 70%;
+        font-size: 19px;
+    }
+
+    .hero2_fleur {
+        top: 2%;
+        left: 6%;
+    }
+
+    .hero2_fleur img {
+        width: 50%;
+    }
+
+    .section-equipe_bg .wp-block-image {
+        margin-top: -2rem;
+    }
+
+    .section-equipe_membres {
+        gap: 5rem;
+    }
+
+    .section-equipe_feuilles {
+        left: 16px;
+    }
+
+    .section-equipe_feuilles img {
+        width: 32%;
+    }
+
+    .canettes-desktop {
+        display: none;
+    }
+
+    .canettes-mobile {
+        display: block;
+    }
 }
