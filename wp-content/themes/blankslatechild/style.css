@@ -522,7 +522,7 @@ h2 {
 
 /*----------------------------------------- PAGE COMMANDER */
 
-.hero3, .section-commande {
+.hero3, .section-commande, .section-form {
     background-color: #3D9448;
 }
 
@@ -533,7 +533,7 @@ h2 {
 
 .hero3_ttl {
     color: white;
-    width: 70%;
+    width: 60%;
     padding: 69px 0;
     border-bottom: 1px solid white;
 }
@@ -543,6 +543,8 @@ h2 {
 .section-commande {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    padding: 0 292px;
 }
 
 .section-commande h2 {
@@ -553,7 +555,94 @@ h2 {
     padding: 40px 0;
 }
 
+.section-commande_ctn {
+    display: flex;
+    gap: 25px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+}
 
+.section-commande_img1,
+.section-commande_img2,
+.section-commande_img3,
+.section-commande_img4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.section-commande_img1 h3,
+.section-commande_img2 h3,
+.section-commande_img3 h3,
+.section-commande_img4 h3 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.section-commande_1,
+.section-commande_2,
+.section-commande_3,
+.section-commande_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-commande_input {
+    padding-top: 20px;
+}
+
+.oneline2 { top: 55px; }
+.twolines2 { top: 43px; }
+
+.section-commande_input button {
+    background: #E0B9B4;
+    border: none;
+    border-radius: 5px;
+    height: 56px;
+    width: 100px;
+
+}
+
+.section-commande_input button p{
+    font-size: 15px;
+    color: white;
+
+}
+
+/* ------- SECTION FORMULAIRE */
+
+.section-form {
+    padding: 53px 292px 90px 292px;
+}
+
+.form-champs2 input {
+    border: none;
+    height: 70px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.form-champs2 label {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.form-champs2 p {
+    margin-top: 20px;
+}
+
+.section-form h2 {
+    text-align: left;
+}
 
 /* ------------------------------------------------------------------------- MEDIA QUERIES ------------------------------------------------------------------------- */
 
