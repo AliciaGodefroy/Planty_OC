@@ -626,6 +626,7 @@ h2 {
     height: 70px;
     border-radius: 7px;
     margin-top: 20px;
+    width: 100%;
 }
 
 .form-champs2 label {
@@ -642,6 +643,8 @@ h2 {
 
 .section-form h2 {
     text-align: left;
+    color: white;
+    text-transform: none;
 }
 
 /* ------------------------------------------------------------------------- MEDIA QUERIES ------------------------------------------------------------------------- */
