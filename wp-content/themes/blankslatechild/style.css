@@ -123,8 +123,9 @@ h2 {
 
 .feuilles {
     position: absolute;
-    top: 18%;
-    left: 25.6%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .canette {
@@ -211,23 +212,16 @@ h2 {
     position: relative;
 }
 
-.oneline {
-    top: 102px;
-}
-.twolines {
-    top: 73px;
-}
-
-.section-gouts_img1 h3, 
-.section-gouts_img2 h3, 
-.section-gouts_img3 h3, 
-.section-gouts_img4 h3 {
+.section-gouts_img h3 {
     color: white;
     text-transform: uppercase;
     text-align: center;
     position: absolute;
-    font-size: 48px;
+    font-size: 2.8vw;
     font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -272,7 +266,8 @@ h2 {
 }
 
 .section-avis_txt {
-    max-width: 43%;
+    max-width: 275px;
+    min-width: 80px;
 }
 
 .section-avis_1, 
@@ -292,52 +287,10 @@ h2 {
 .section-avis_column {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 80px 0 120px 0;
 }
-
-/* .section-avis_ctn {
-    padding: 130px 0 0 0;
-}
-
-.section-avis_1, 
-.section-avis_2, 
-.section-avis_3 {
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    width: 27%;
-}
-
-.section-avis_column {
-    display: flex;
-    justify-content: center;
-    margin: 70px 0 130px 0;
-}
-
-.section-avis_txt h3 {
-    color: #3D9448;
-    font-size: 30px;
-    margin-bottom: 11px;
-}
-
-.section-avis_img .wp-block-image img {
-    width: 126.28px;
-    height: 139px;
-}
-
-.section-avis_img {
-    position: relative;
-    width: 58%;
-}
-
-.section-avis_3 .wp-block-image img {
-    width: 119%;
-    margin-right: 8rem;
-}
-
-.section-avis_img .letter-p img {
-    position: absolute;
-} */
 
 .section-avis_canettes .wp-block-image img {
     width: 100%;
@@ -646,6 +599,30 @@ h2 {
     text-transform: none;
 }
 
+.form_columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form_column1, .form_column2 {
+    width: 50%;
+    min-width: 383px;
+}
+
+.form_column1 { 
+    padding: 0 45px 0 0;
+    border-right: 1px solid white;
+}
+
+.form_column2 { padding: 0 0 0 45px; }
+
+.form_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
 /* ------------------------------------------------------------------------- MEDIA QUERIES ------------------------------------------------------------------------- */
 
 /* VERSION MOBILE */
@@ -705,10 +682,14 @@ h2 {
         background-color: #DC9F96;
     }
 
-    /*----------------------------------------- PAGE NOUS RENCONTRER */
+    /*----------------------------------------- PAGE D'ACCUEIL */
 
     .section-energie_bg .wp-block-image {
         margin-top: -2rem;
+    }
+
+    .section-gouts_img {
+        padding: 0 1rem;
     }
 
     .section-gouts_img1 h3, 
@@ -718,9 +699,6 @@ h2 {
         font-size: 28px;
         font-weight: 800;
     }
-
-    .oneline { top: 75px; }
-    .twolines { top: 57px; }
 
     /*----------------------------------------- PAGE NOUS RENCONTRER */
 
