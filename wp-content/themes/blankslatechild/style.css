@@ -262,6 +262,8 @@ h2 {
 }
 
 .section-avis_img {
+    min-width: 120px;
+    max-width: 175px;
     width: 30%;
 }
 
@@ -276,6 +278,9 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 20px;
+    max-width: 330px;
+    width: 70%;
+    min-width: 285px;
 }
 
 .section-avis_txt h3 {
@@ -290,6 +295,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     padding: 80px 0 120px 0;
+    gap: 1rem;
 }
 
 .section-avis_canettes .wp-block-image img {
@@ -567,6 +573,12 @@ h2 {
 
 }
 
+.section-commande_input input {
+    height: 56px;
+    border: none;
+    border-radius: 6px 0 0 6px;
+}
+
 /* ------- SECTION FORMULAIRE */
 
 .section-form {
@@ -684,6 +696,10 @@ h2 {
 
     /*----------------------------------------- PAGE D'ACCUEIL */
 
+    .feuilles {
+        display: none;
+    }
+
     .section-energie_bg .wp-block-image {
         margin-top: -2rem;
     }
@@ -696,10 +712,17 @@ h2 {
     .section-gouts_img2 h3, 
     .section-gouts_img3 h3, 
     .section-gouts_img4 h3 {
-        font-size: 28px;
+        font-size: 8.8vw;
         font-weight: 800;
     }
 
+    .section-avis_column {
+        padding: 60px 0;
+    }
+
+    .section-avis h2 {
+        font-size: 24px;
+    }
     /*----------------------------------------- PAGE NOUS RENCONTRER */
 
     .hero2_ctn {
@@ -729,6 +752,9 @@ h2 {
     .canettes-mobile {
         display: block;
     }
+
+    .form_champs { width: 90%; }
+    .form_msg textarea { width : 100%; }
 }
 
 
