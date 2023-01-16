@@ -515,6 +515,7 @@ h2 {
 
 .section-commande_ctn {
     display: flex;
+    flex-wrap: wrap;
     gap: 25px;
     border-bottom: 1px solid white;
     padding-bottom: 40px;
@@ -551,12 +552,16 @@ h2 {
     align-items: flex-start;
 }
 
-.section-commande_input {
-    padding-top: 20px;
+.section-commande_ctn h3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.oneline2 { top: 55px; }
-.twolines2 { top: 43px; }
+.section-commande_input {
+    display: flex;
+    padding-top: 20px;
+}
 
 .section-commande_input button {
     background: #E0B9B4;
@@ -564,7 +569,7 @@ h2 {
     border-radius: 5px;
     height: 56px;
     width: 100px;
-
+    margin-left: 10px;
 }
 
 .section-commande_input button p{
@@ -574,10 +579,30 @@ h2 {
 }
 
 .section-commande_input input {
+    width: 51px;
     height: 56px;
     border: none;
     border-radius: 6px 0 0 6px;
 }
+
+.plus-moins {
+    width: 31px;
+}
+
+.plus-moins p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #DC9F96;
+    height: 28px;
+}
+
+.plus { 
+    border-radius: 0 6px 0 0;
+    border-bottom: 1px solid;
+}
+.moins { border-radius: 0 0 6px 0; }
 
 /* ------- SECTION FORMULAIRE */
 
@@ -755,6 +780,39 @@ h2 {
 
     .form_champs { width: 90%; }
     .form_msg textarea { width : 100%; }
+
+    /*----------------------------------------- PAGE D'ACCUEIL */
+
+    .section-commande,
+    .section-form,
+    .form_column1,
+    .form_column2 {
+        padding: 0; 
+    }
+
+    .section-commande_ctn {
+        flex-wrap: wrap;
+    }
+
+    .hero3_ttl {
+        width: 100%;
+    }
+
+    .form_columns {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .form_column1 {
+        border: none;
+    }
+
+    .form_column1, 
+    .form_column2 {
+        width: 80%;
+    }
+
 }
 
 
