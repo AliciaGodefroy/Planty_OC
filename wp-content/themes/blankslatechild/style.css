@@ -494,7 +494,6 @@ h2 {
     color: white;
     width: 60%;
     padding: 69px 0;
-    border-bottom: 1px solid white;
 }
 
 /* ------- SECTION COMMANDE */
@@ -511,14 +510,27 @@ h2 {
     color: white;
     text-align: left;
     padding: 40px 0;
+    border-top: 1px solid white;
 }
 
 .section-commande_ctn {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 25px;
     border-bottom: 1px solid white;
     padding-bottom: 40px;
+}
+
+.section-commande_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.section-commande_ctn img {
+    max-width: 192px;
 }
 
 .section-commande_img1,
@@ -660,6 +672,10 @@ h2 {
     margin-top: 45px;
 }
 
+input#quantite::placeholder {
+    text-align: center;
+}
+
 /* ------------------------------------------------------------------------- MEDIA QUERIES ------------------------------------------------------------------------- */
 
 /* VERSION MOBILE */
@@ -794,6 +810,10 @@ h2 {
         flex-wrap: wrap;
     }
 
+    .section-commande h2 {
+        text-align: center;
+    }
+
     .hero3_ttl {
         width: 100%;
     }
@@ -811,6 +831,19 @@ h2 {
     .form_column1, 
     .form_column2 {
         width: 80%;
+        padding: 2rem 2rem;
+    }
+
+    .form_btn {
+        padding-bottom: 5rem;
+    }
+
+    .section-commande {
+        padding: 0 2rem;
+    }
+
+    .section-form {
+        padding: 53px 20px 90px 20px;
     }
 
 }
@@ -851,6 +884,10 @@ h2 {
         width: 25%;
     }
 
+    .section-energie_bg .wp-block-image {
+        margin-top: -3rem;
+    }
+
     /*----------------------------------------- PAGE NOUS RENCONTRER */
 
     .hero2_fleur,
@@ -875,4 +912,66 @@ h2 {
     .section-equipe_membres {
         gap: 5rem;
     }
+
+    /*----------------------------------------- PAGE COMMANDER */
+
+    .section-commande {
+        padding: 0 2rem;
+    }
+
+    .section-form {
+        padding: 53px 20px 90px 20px;
+    }
+
+    .form_columns{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .form_column1 {
+        padding: 0;
+        border: none;
+    }
+
+    .form_column2 {
+        padding: 0;
+    }
 }
+
+@media only screen and (min-device-width: 993px) and (max-device-width: 1350px) {
+    .section-commande {
+        padding: 0 200px;
+    }
+
+    .section-form {
+        padding : 53px 200px 90px 200px
+    }
+    .hero2_fleur {
+        top: 14%;
+        left: 3%;
+    }
+}
+
+@media only screen and (min-device-width: 1351px) and (max-device-width: 1400px) {
+    .hero2_fleur {
+        top: 14%;
+        left: 3%;
+    }
+}
+
+
+/*
+
+MOBILE
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+
+TABLETTE
+@media only screen and (min-device-width: 481px) and (max-device-width: 992px) 
+
+ENTRE DEUX
+@media only screen and (min-device-width: 993px) and (max-device-width: 1350px) 
+
+
+
+*/
