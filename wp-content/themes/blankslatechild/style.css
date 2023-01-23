@@ -672,7 +672,7 @@ h2 {
     margin-top: 45px;
 }
 
-input#quantite::placeholder {
+input.quantite::placeholder {
     text-align: center;
 }
 
@@ -835,7 +835,7 @@ input#quantite::placeholder {
     }
 
     .form_btn {
-        padding-bottom: 5rem;
+        padding-bottom: 1rem;
     }
 
     .section-commande {
