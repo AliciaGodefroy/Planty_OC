@@ -72,6 +72,11 @@ h2 {
     display: flex;
 }
 
+/* On cile le bouton "Commander"*/
+.menu-header-container ul li:nth-child(2)  {
+    order: 1;
+}
+
 .menu-item{
     padding: 30px 60px;
 }

@@ -24,24 +24,24 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 // END ENQUEUE PARENT ACTION
 
 // MENU IF IS USER LOGGED IN
-function add_admin_link($items, $args) {
-    if (is_user_logged_in() && ($args->theme_location=='main-menu')) {
-        $menu_items = array(wp_get_nav_menu_items('main-menu'));
-
-        array_splice($menu_items, 1, 0, '<li id="navAdmin" class="navAdmin menu-item"><a href="'. get_admin_url() .'">Admin</a></li>');
-    }
-    return $items;
-}
-add_filter( 'wp_nav_menu_items', 'add_admin_link', 10, 2 );
-
-
 // function add_admin_link($items, $args) {
 //     if (is_user_logged_in() && ($args->theme_location=='main-menu')) {
-//         $items .= '<li id="navAdmin" class="navAdmin menu-item"><a href="'. get_admin_url() .'">Admin</a></li>';
+//         $menu_items = wp_get_nav_menu_items('main-menu');
+
+//         array_splice($menu_items, 1, 0, '<li id="navAdmin" class="navAdmin menu-item"><a href="'. get_admin_url() .'">Admin</a></li>');
 //     }
 //     return $items;
 // }
 // add_filter( 'wp_nav_menu_items', 'add_admin_link', 10, 2 );
+
+
+function add_admin_link($items, $args) {
+    if (is_user_logged_in() && ($args->theme_location=='main-menu')) {
+        $items .= '<li id="navAdmin" class="navAdmin menu-item"><a href="'. get_admin_url() .'">Admin</a></li>';
+    }
+    return $items;
+}
+add_filter( 'wp_nav_menu_items', 'add_admin_link', 10, 2 );
 
 
 // add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
