@@ -57,6 +57,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     padding: 0px 0px 0px 37px;
+    background-color: #ffffff;
 }
 
 .header_logo{
@@ -97,6 +98,7 @@ h2 {
 .footer {
     text-align: center;
     padding: 20px 0;
+    background-color: #ffffff;
 }
 
 .footer_link {
@@ -481,6 +483,10 @@ h2 {
 
 /*----------------------------------------- PAGE COMMANDER */
 
+body.page-id-11{
+    background-color: #3D9448;
+}
+
 .hero3, .section-commande, .section-form {
     background-color: #3D9448;
 }
@@ -502,7 +508,8 @@ h2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 292px;
+    /* padding: 0 292px; */
+    margin: 0 20%;
 }
 
 .section-commande h2 {
@@ -577,17 +584,13 @@ h2 {
 
 .section-commande_input button {
     background: #E0B9B4;
+    color: white;
+    font-size: 15px;
     border: none;
     border-radius: 5px;
     height: 56px;
     width: 100px;
     margin-left: 10px;
-}
-
-.section-commande_input button p{
-    font-size: 15px;
-    color: white;
-
 }
 
 .section-commande_input input {
@@ -619,7 +622,8 @@ h2 {
 /* ------- SECTION FORMULAIRE */
 
 .section-form {
-    padding: 53px 292px 90px 292px;
+    padding: 53px 0 90px 0;
+    margin: 0 20%;
 }
 
 .form-champs2 input {
@@ -650,13 +654,16 @@ h2 {
 
 .form_columns {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: flex-end;
     flex-wrap: wrap;
 }
 
 .form_column1, .form_column2 {
     width: 50%;
-    min-width: 383px;
+    min-width: 310px;
+    max-width: 426px;
 }
 
 .form_column1 { 
@@ -697,6 +704,7 @@ input.quantite::placeholder {
         flex-wrap: wrap;
         flex-direction: column;
         padding: 0;
+        background-color: #ffffff;
     }
 
     .header_logo{
@@ -843,7 +851,7 @@ input.quantite::placeholder {
     }
 
     .section-form {
-        padding: 53px 20px 90px 20px;
+        padding: 53px 0 90px 0;
     }
 
 }
@@ -915,12 +923,9 @@ input.quantite::placeholder {
 
     /*----------------------------------------- PAGE COMMANDER */
 
-    .section-commande {
-        padding: 0 2rem;
-    }
 
     .section-form {
-        padding: 53px 20px 90px 20px;
+        padding: 53px 0 90px 0;
     }
 
     .form_columns{
@@ -940,12 +945,9 @@ input.quantite::placeholder {
 }
 
 @media only screen and (min-device-width: 993px) and (max-device-width: 1350px) {
-    .section-commande {
-        padding: 0 200px;
-    }
 
     .section-form {
-        padding : 53px 200px 90px 200px
+        padding : 53px 0 90px 0;
     }
     .hero2_fleur {
         top: 14%;
@@ -959,6 +961,33 @@ input.quantite::placeholder {
         left: 3%;
     }
 }
+
+@media only screen and (min-device-width: 993px) and (max-device-width: 1033px) {
+    .form_columns {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .form_column1 {
+        padding: 0;
+        border: none;
+    }
+    .form_column2 {
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-device-width: 993px) and (max-device-width: 1265px) {
+    .section-equipe_feuilles {
+        display: none;
+    }
+}
+
 
 
 /*
