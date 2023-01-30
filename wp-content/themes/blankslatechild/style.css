@@ -72,8 +72,8 @@ h2 {
     display: flex;
 }
 
-/* On cile le bouton "Commander"*/
-.menu-header-container ul li:nth-child(2)  {
+/* On cile le bouton "Commander" avec nth-child en ciblant les éléments paires du tableau*/
+.menu-header-container ul li:nth-child(2n)  {
     order: 1;
 }
 
@@ -992,6 +992,13 @@ input.quantite::placeholder {
         display: none;
     }
 }
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 730px) {
+    .section-gouts_img h3 {
+        font-size: 3.8vw;
+    }
+}
+
 
 
 
