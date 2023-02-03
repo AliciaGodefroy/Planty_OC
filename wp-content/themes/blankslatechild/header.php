@@ -11,7 +11,7 @@
 <div id="wrapper" class="hfeed">
 <header id="header" role="banner">
 	<div class="header_logo">
-		<a href="http://localhost:8888/planty/site-planty/">
+		<a href="<?php echo home_url() ?>">
 			<img src="<?php echo get_stylesheet_directory_uri()."/assets/Logo.png" ?>" alt="Logo Planty">
 		</a>
 	</div>

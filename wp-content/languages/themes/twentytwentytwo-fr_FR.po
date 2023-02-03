@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Two package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-28 06:40:23+0000\n"
+"PO-Revision-Date: 2023-01-04 07:48:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,6 +20,46 @@ msgstr "Twenty Twenty-Two"
 #, gp-priority: high
 msgid "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours."
 msgstr "Construit sur une base solidement désignée, Twenty Twenty-Two embrasse l‘idée que tout le monde mérite un site vraiment unique. Les styles subtils du thème sont inspirés par la diversité et la polyvalence des oiseaux : sa typographie est légère mais forte, sa palette de couleurs est tirée de la nature et ses éléments de mise en page se positionnent doucement sur la page. La vraie richesse de Twenty Twenty-Two réside dans ses possibilités de personnalisation. Le thème est conçu pour tirer parti des fonctionnalités d'édition de site complète introduites dans WordPress 5.9, ce qui signifie que les couleurs, la typographie et la mise en page de chaque page de votre site peuvent être personnalisées en fonction de votre vision. Il comprend également des dizaines de compositions de blocs, ouvrant la porte à un large éventail de mises en page professionnels en quelques clics. Que vous construisiez un site d‘une seule page, un blog, un site web d‘entreprise ou un portfolio, Twenty Twenty-Two vous aidera à créer un site qui vous est propre."
+
+#: styles/swiss.json
+msgctxt "Duotone name"
+msgid "Default filter"
+msgstr "Filtre par défaut"
+
+#: styles/swiss.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: styles/swiss.json
+msgctxt "Style variation name"
+msgid "Swiss"
+msgstr "Suisse"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr "IBM Plex Mono"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Sans"
+msgstr "IBM Plex Sans"
+
+#: styles/pink.json
+msgctxt "Style variation name"
+msgid "Pink"
+msgstr "Rose"
+
+#: styles/blue.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr "DM Sans"
+
+#: styles/blue.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr "Bleu"
 
 #: inc/patterns/hidden-404.php:14
 msgid "Search"
@@ -244,6 +284,10 @@ msgstr "Doug"
 msgid "A podcast about birds"
 msgstr "Un podcast sur les oiseaux"
 
+#: inc/patterns/page-about-links.php:17
+msgid "Swoop"
+msgstr "Piqué"
+
 #: inc/patterns/page-about-links-dark.php:38
 #: inc/patterns/page-about-links.php:42
 msgid "Support the show"
@@ -298,9 +342,17 @@ msgstr "En-tête avec slogan"
 msgid "Logo and navigation header"
 msgstr "Logo et en-tête de navigation"
 
+#: inc/patterns/header-logo-navigation-offset-tagline.php:6
+msgid "Logo, navigation, and offset tagline Header"
+msgstr "Logo, navigation et slogan décalé"
+
 #: inc/patterns/header-default.php:6
 msgid "Default header"
 msgstr "En-tête par défaut"
+
+#: inc/patterns/header-centered-title-navigation-social.php:6
+msgid "Centered header with navigation, social links, and salmon background"
+msgstr "En-tête centré avec navigation, liens sociaux et arrière-plan saumon"
 
 #: inc/patterns/header-centered-logo.php:6
 msgid "Header with centered logo"
@@ -318,6 +370,11 @@ msgstr "Jesús Rodriguez<br>Doug Stilton<br>Emery Driscoll<br>Megan Perry<br>Row
 msgid "Featuring"
 msgstr "Avec"
 
+#: inc/patterns/general-video-header-details.php:11
+#: inc/patterns/page-layout-image-text-and-video.php:11
+msgid "<em>Warble</em>, a film about <br>hobbyist bird watchers."
+msgstr "<em>Warble</em>, un film sur les <br>ornithologues amateurs."
+
 #: inc/patterns/general-video-header-details.php:6
 msgid "Video with header and details"
 msgstr "Vidéo avec en-tête et détails"
@@ -327,6 +384,11 @@ msgstr "Vidéo avec en-tête et détails"
 #: inc/patterns/page-layout-image-text-and-video.php:30
 msgid "Buy Tickets"
 msgstr "Acheter des billets"
+
+#: inc/patterns/general-two-images-text.php:29
+#: inc/patterns/page-layout-image-text-and-video.php:25
+msgid "May 14th, 2022 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH"
+msgstr "14 mai 2022 @ 19:00<br>The Vintagé Theatre,<br>245 Arden Rd.<br>Gardenville, NH"
 
 #: inc/patterns/general-two-images-text.php:6
 msgid "Two images with text"
@@ -396,6 +458,10 @@ msgstr "Jesús Rodriguez"
 #: inc/patterns/general-list-events.php:25
 msgid "May 14th, 2022, 6 PM"
 msgstr "14 mai 2022, 18h"
+
+#: inc/patterns/general-layered-images-with-duotone.php:6
+msgid "Layered images with duotone"
+msgstr "Images en couches avec duotone"
 
 #: inc/patterns/general-large-list-names.php:11
 #: inc/patterns/page-sidebar-poster.php:32
@@ -549,11 +615,6 @@ msgstr "Oh, bonjour. Je m’appelle Camille et vous avez trouvé votre chemin ve
 msgid "An illustration of a bird in flight"
 msgstr "Une illustration d’un oiseau en plein vol"
 
-#: inc/patterns/page-layout-image-and-text.php:27
-#: inc/patterns/page-layout-two-columns.php:36
-msgid "Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href=\"#\">Eagle Beagle</a> and <a href=\"#\">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href=\"#\">I definitely recommend this tea</a>. It’s my favorite."
-msgstr "Oh, bonjour salut. Je m’appelle Camille et je gère ce blog. Je suis née à Mâcon, mais je vis actuellement dans à Marseille. Vous pouvez me reconnaître dans des publications portant des noms tels que <a href=\"#\">L’Aigle royal</a> et <a href=\"#\">La Tourterelle</a>. J’écris pour gagner ma vie.<br><br>J’utilise généralement ce blog pour cataloguer de longues listes d’oiseaux et d’autres choses que je trouve intéressantes. Si vous trouvez une erreur sur l’une de mes listes, veuillez la garder pour vous.<br><br>Si tout cela n’est pas votre tasse de thé… <a href=\"#\">alors je vous recommande vraiment ce thé là</a>. C’est mon préféré."
-
 #: inc/patterns/page-about-media-left.php:6
 msgid "About page with media on the left"
 msgstr "Page « À propos » avec des médias sur la gauche"
@@ -569,6 +630,11 @@ msgstr "En-tête avec titre et bouton"
 #: inc/patterns/header-title-navigation-social.php:6
 msgid "Title, navigation, and social links header"
 msgstr "En-tête avec titre, navigation et réseaux sociaux"
+
+#: inc/patterns/page-layout-image-and-text.php:27
+#: inc/patterns/page-layout-two-columns.php:36
+msgid "Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href=\"#\">Eagle Beagle</a> and <a href=\"#\">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href=\"#\">I definitely recommend this tea</a>. It’s my favorite."
+msgstr "Oh, bonjour salut. Je m’appelle Camille et je gère ce blog. Je suis née à Mâcon, mais je vis actuellement dans à Marseille. Vous pouvez me reconnaître dans des publications portant des noms tels que <a href=\"#\">L’Aigle royal</a> et <a href=\"#\">La Tourterelle</a>. J’écris pour gagner ma vie.<br><br>J’utilise généralement ce blog pour cataloguer de longues listes d’oiseaux et d’autres choses que je trouve intéressantes. Si vous trouvez une erreur sur l’une de mes listes, veuillez la garder pour vous.<br><br>Si tout cela n’est pas votre tasse de thé… <a href=\"#\">alors je vous recommande vraiment ce thé là</a>. C’est mon préféré."
 
 #: inc/block-patterns.php:17
 msgid "Featured"
@@ -683,17 +749,9 @@ msgstr "Bonjour. Je m‘appelle Edvard, et vous avez trouvé le chemin de mon si
 msgid "Oh hello. My name’s Jesús, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
 msgstr "Bonjour. Je m‘appelle Jesús, et vous avez trouvé le chemin de mon site. Je suis un observateur d‘oiseaux passionné et je diffuse également ma propre émission de radio tous les mardis soirs à 23 heures."
 
-#: inc/patterns/page-about-media-right.php:20
-msgid "Oh hello. My name’s Emery, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
-msgstr "Bonjour. Je m‘appelle Emery, et vous avez trouvé le chemin de mon site. Je suis un observateur d‘oiseaux passionné et je diffuse également ma propre émission de radio tous les mardis soirs à 23 heures. Écoutez-moi un jour !"
-
 #: inc/patterns/page-about-media-right.php:6
 msgid "About page with media on the right"
 msgstr "Page À propos avec les médias sur la droite"
-
-#: inc/patterns/page-about-media-left.php:21
-msgid "Oh hello. My name’s Doug, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
-msgstr "Bonjour. Je m‘appelle Doug, et vous avez trouvé le chemin de mon site. Je suis un observateur d‘oiseaux passionné et je diffuse également ma propre émission de radio tous les mardis soirs à 23 heures. Écoutez-moi un jour !"
 
 #: inc/patterns/page-about-large-image-and-buttons.php:6
 msgid "About page with large image and buttons"
@@ -785,6 +843,40 @@ msgstr "Grand en-tête avec arrière-plan sombre"
 #: inc/patterns/page-about-large-image-and-buttons.php:33
 msgid "Take a class"
 msgstr "Prendre un cours"
+
+#: inc/patterns/page-layout-two-columns.php:58
+msgid "POSTS"
+msgstr "ARTICLES"
+
+#: inc/patterns/general-video-trailer.php:12
+#: inc/patterns/page-layout-image-text-and-video.php:49
+msgid "Extended Trailer"
+msgstr "Bande-annonce complète"
+
+#: inc/patterns/general-video-trailer.php:16
+#: inc/patterns/general-wide-image-intro-buttons.php:22
+msgid "A film about hobbyist bird watchers, a catalog of different birds, paired with the noises they make. Each bird is listed by their scientific name so things seem more official."
+msgstr "Un film sur les ornithologues amateurs, un catalogue de différents oiseaux, associé aux bruits qu’ils font. Chaque oiseau est répertorié par son nom scientifique, donc les choses semblent plus officielles."
+
+#: inc/patterns/page-about-media-right.php:20
+msgid "Oh hello. My name’s Emery, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "Bonjour. Je m‘appelle Emery, et vous avez trouvé le chemin de mon site. Je suis un observateur d‘oiseaux passionné et je diffuse également ma propre émission de radio tous les mardis soirs à 23 heures. Écoutez-moi un jour !"
+
+#: inc/patterns/page-about-media-left.php:21
+msgid "Oh hello. My name’s Doug, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "Bonjour. Je m‘appelle Doug, et vous avez trouvé le chemin de mon site. Je suis un observateur d‘oiseaux passionné et je diffuse également ma propre émission de radio tous les mardis soirs à 23 heures. Écoutez-moi un jour !"
+
+#: inc/patterns/header-logo-navigation-gray-background.php:6
+msgid "Logo and navigation header with gray background"
+msgstr "Logo et en-tête de navigation avec arrière-plan gris"
+
+#: inc/patterns/header-image-background.php:6
+msgid "Header with image background"
+msgstr "En-tête avec image d’arrière-plan"
+
+#: inc/patterns/header-image-background-overlay.php:6
+msgid "Header with image background and overlay"
+msgstr "En-tête avec image d’arrière-plan et superposition"
 
 #. Theme URI of the theme
 #, gp-priority: low
