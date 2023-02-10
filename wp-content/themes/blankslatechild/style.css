@@ -994,21 +994,3 @@ input.quantite::placeholder {
         font-size: 3.8vw;
     }
 }
-
-
-
-
-/*
-
-MOBILE
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
-
-TABLETTE
-@media only screen and (min-device-width: 481px) and (max-device-width: 992px) 
-
-ENTRE DEUX
-@media only screen and (min-device-width: 993px) and (max-device-width: 1350px) 
-
-
-
-*/
