@@ -692,7 +692,7 @@ input.quantite::placeholder {
 
 /* VERSION MOBILE */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
     h1, h2 {
         font-size: 24px;
@@ -860,7 +860,7 @@ input.quantite::placeholder {
 
 /* VERSION TABLETTE */
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 992px) {
+@media only screen and (min-width: 481px) and (max-width: 992px) {
 
     h1, h2 {
         font-size: 24px;
@@ -945,7 +945,7 @@ input.quantite::placeholder {
     }
 }
 
-@media only screen and (min-device-width: 993px) and (max-device-width: 1350px) {
+@media only screen and (min-width: 993px) and (max-width: 1350px) {
 
     .section-form {
         padding : 53px 0 90px 0;
@@ -956,14 +956,14 @@ input.quantite::placeholder {
     }
 }
 
-@media only screen and (min-device-width: 1351px) and (max-device-width: 1400px) {
+@media only screen and (min-width: 1351px) and (max-width: 1400px) {
     .hero2_fleur {
         top: 14%;
         left: 3%;
     }
 }
 
-@media only screen and (min-device-width: 993px) and (max-device-width: 1033px) {
+@media only screen and (min-width: 993px) and (max-width: 1033px) {
     .form_columns {
         flex-direction: column;
         align-items: center;
@@ -983,13 +983,13 @@ input.quantite::placeholder {
     }
 }
 
-@media only screen and (min-device-width: 993px) and (max-device-width: 1265px) {
+@media only screen and (min-width: 993px) and (max-width: 1265px) {
     .section-equipe_feuilles {
         display: none;
     }
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 730px) {
+@media only screen and (min-width: 481px) and (max-width: 730px) {
     .section-gouts_img h3 {
         font-size: 3.8vw;
     }
